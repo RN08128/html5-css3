@@ -35,7 +35,7 @@ header > h1{
 header > h2{
     color: white;
     font-size: 16px;
-    width: 480px;
+    max-width: 480px;
     font-family: sans-serif;
     text-align: center;
     margin: auto;
@@ -78,7 +78,7 @@ main > h2{
 }
 main > p{
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
+    font-weight: normal;
     font-size: 15px;
     padding: 0 15px 0 15px;
     text-align: justify;
@@ -101,7 +101,7 @@ section > h2{
 }
 section > p{
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
+    font-weight: normal;
     font-size: 15px;
     padding: 0 15px 0 15px;
     text-align: justify;

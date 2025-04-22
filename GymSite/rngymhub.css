@@ -1,5 +1,47 @@
 @charset "UTF-8";
+/*
+id - #
+Class - .
+todos parágrafos = Class
+parágrafo específico = id
+elemento.(nome class) {
+}
+
+#(nome id) {
+}
+
+#(nome id).(nome class) {
+}
+*/
+
+/*Cabeçalho 
+    (foto)
+{Menuzin} - Home / Dieta / Treinos /
+*/
 
 body{
-    
+    margin: 0;
+    padding: 0;  
+}
+header{
+
+}
+#imagemhdr.imagens{
+    width: 100%;
+    display: inline-block;
+}
+
+div.linkmenu{
+    background-color: #025387;
+    margin-top: -4px;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+.linkmenu{
+    text-decoration: none;
+    color: #0087db;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
 }

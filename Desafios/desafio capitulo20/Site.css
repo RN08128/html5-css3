@@ -5,6 +5,11 @@
     src: url('Fonts/Passion_One/PassionOne-Bold.ttf') format('truetype');
 }
   
+@font-face {
+    font-family: 'Sriracha';
+    src: url('Fonts/Sriracha/Sriracha-Regular.ttf') format('truetype');
+}
+
 body{
     margin: 0;
 }
@@ -46,4 +51,19 @@ header > h2{
     font-size: 16px;
     font-weight: lighter;
     margin: 0;
+}
+
+.divs{
+    font-family: 'Sriracha';
+    padding: 40px;
+    padding-left: 50px;
+    font-size: 4.5vh;
+    padding-bottom: 35px;
+}
+#imagem1{ 
+    font-family: 'Sriracha';
+    color: white;
+    background-image: url('Imagens/Joaninha.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }

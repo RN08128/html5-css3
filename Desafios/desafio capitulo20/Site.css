@@ -18,7 +18,8 @@ header{
     background-color: black;
     padding: 0;
     margin-top: -47px;
-    height: 220px;
+    margin-bottom: 20px;
+    min-height: 220px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -55,10 +56,9 @@ header > h2{
 
 .divs{
     font-family: 'Sriracha';
-    padding: 40px;
-    padding-left: 50px;
+    padding-left: 40px;
     font-size: 4.5vh;
-    padding-bottom: 35px;
+    padding-bottom: 10px;
 }
 #imagem1{ 
     font-family: 'Sriracha';
@@ -66,4 +66,9 @@ header > h2{
     background-image: url('Imagens/Joaninha.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: left;
+    font-size: 4.5vh;
+    padding-left: 50px;
+    padding: 40px;
+    background-size: 100%, 10%;
 }

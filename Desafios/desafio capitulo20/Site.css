@@ -56,19 +56,50 @@ header > h2{
 
 .divs{
     font-family: 'Sriracha';
-    padding-left: 40px;
-    font-size: 4.5vh;
+    padding-left: 30px;
+    font-size: 4vh;
     padding-bottom: 10px;
 }
 #imagem1{ 
     font-family: 'Sriracha';
     color: white;
-    background-image: url('Imagens/Joaninha.jpg');
+    background-image: url('Imagens/Joaninha-edit2.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: left;
-    font-size: 4.5vh;
-    padding-left: 50px;
-    padding: 40px;
-    background-size: 100%, 10%;
+    background-position: center;
+    font-size: 4vh;
+    padding: 30px;
+    background-size: auto, 100%;
+}
+#imagem1 > p{
+    background-color: rgba(128, 128, 128, 0.356);
+    max-width: fit-content;
+    min-height: min-content;
+}
+#imagem2{ 
+    font-family: 'Sriracha';
+    color: white;
+    background-image: url('Imagens/manuscrito2.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    font-size: 4vh;
+    padding: 30px;
+    background-size: auto, 100%;
+}
+
+#imagem2 > p{
+    background-color: rgba(128, 128, 128, 0.356);
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+footer{
+    font-size: 1.8vh;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    height: 30px;
+    text-align: center;
 }

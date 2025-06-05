@@ -17,8 +17,8 @@ body{
 header{
     background-color: black;
     padding: 0;
-    margin-top: -47px;
-    margin-bottom: 20px;
+    margin-top: -80px;
+    margin-bottom: 0;
     min-height: 220px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -26,13 +26,13 @@ header{
 
 header > h1{
     color: white;
-    padding-top: 40px;
+    padding-top: 13vh;
     font-family: 'Passion';
-    font-size: 55px;
+    font-size: 6vw;
     margin-bottom: 0;
 }
 header > h1 > a{
-    font-size: 85px;
+    font-size: 7.5vw;
     text-decoration: none;
     color: white;
 }
@@ -43,6 +43,9 @@ header > h2 > a{
     font-weight: bold;
 }
 
+header > h2{
+    margin-bottom: 0;
+}
 .links:hover{
     text-decoration: underline;
 }
@@ -51,46 +54,50 @@ header > h2{
     color: white;
     font-size: 16px;
     font-weight: lighter;
-    margin: 0;
+    padding-bottom: 50px;
 }
 
 .divs{
     font-family: 'Sriracha';
-    padding-left: 30px;
-    font-size: 4vh;
-    padding-bottom: 10px;
+    padding-left: 3.6vw;
+    font-size: 3.8vh;
+    padding-top: 35px;
 }
 #imagem1{ 
     font-family: 'Sriracha';
     color: white;
-    background-image: url('Imagens/Joaninha-edit2.jpg');
+    background-image: url('Imagens/Joaninha-2.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
-    font-size: 4vh;
-    padding: 30px;
-    background-size: auto, 100%;
+    font-size: 3.8vh;
+    padding-left: 3.6vw;
+    padding: 35px;
+    background-size: cover;
+    box-shadow: inset 6px 6px 15px rgba(0, 0, 0, 0.562);
+    text-shadow: 1px 1px 1px black;
 }
 #imagem1 > p{
-    background-color: rgba(128, 128, 128, 0.356);
+    background-color: rgba(128, 128, 128, 0.452);
     max-width: fit-content;
-    min-height: min-content;
 }
 #imagem2{ 
     font-family: 'Sriracha';
     color: white;
-    background-image: url('Imagens/manuscrito2.jpg');
+    background-image: url('Imagens/Carta.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    font-size: 4vh;
-    padding: 30px;
-    background-size: auto, 100%;
+    background-position: right, center;
+    background-size: cover;
+    font-size: 3.8vh;
+    padding-left: 3.6vw;
+    padding: 35px;
+    box-shadow: inset 6px 6px 15px rgba(0, 0, 0, 0.562);
+    text-shadow: 1px 1px 1px black;
 }
 
 #imagem2 > p{
-    background-color: rgba(128, 128, 128, 0.356);
+    background-color: rgba(128, 128, 128, 0.452);
     max-width: fit-content;
     max-height: fit-content;
 }

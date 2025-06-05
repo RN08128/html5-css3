@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body{
+    font-family: sans-serif;
+}
+
+table{
+    width: 200px;
+    text-align: center;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    padding: 4px;
+}

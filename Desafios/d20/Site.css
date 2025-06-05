@@ -72,7 +72,8 @@ header > h2{
     background-position: center;
     font-size: 3.8vh;
     padding-left: 3.6vw;
-    padding: 35px;
+    padding-bottom: 35px;
+    padding-top: 35px;
     background-size: cover;
     box-shadow: inset 6px 6px 15px rgba(0, 0, 0, 0.562);
     text-shadow: 1px 1px 1px black;
@@ -91,7 +92,8 @@ header > h2{
     background-size: cover;
     font-size: 3.8vh;
     padding-left: 3.6vw;
-    padding: 35px;
+    padding-bottom: 35px;
+    padding-top: 35px;
     box-shadow: inset 6px 6px 15px rgba(0, 0, 0, 0.562);
     text-shadow: 1px 1px 1px black;
 }

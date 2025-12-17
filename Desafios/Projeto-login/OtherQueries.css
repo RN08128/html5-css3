@@ -3,7 +3,7 @@
 @media only screen and (min-width: 767.8px) and (max-width: 991.8px){
     div#login{
         float: right;
-        padding: 5px 8px 5px 5px;
+        padding: 5px 8px 0px 5px;
         max-width: 62.8%;
     }
     div#imagem{
@@ -22,17 +22,18 @@
 @media only screen and (min-width: 991.8px){
     div#login{
         float: left;
-        padding: 5px 8px 5px 5px;
-        width: 53.4%;
+        padding: 20px;
+        width: 45%;
     }
     div#imagem{
         float: right;
-        max-width: 45%;
+        width: 50%;
         background-size: cover;
         min-height: 60vh;
+        
     }
     main{
-        width: 95vw;
+        width: 85vw;
         height: 50vh;
     }
     .butao{

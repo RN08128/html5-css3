@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        #container{
+            position: relative;
+            height: 95vh;
+            background-color: purple;
+            padding: 10px;
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+/*
+If the position of Container is equal a "Relative" and the position of Content is equal a "Absolute" then, just you define the positions "left" and "top" in your code
+
+AND!!!!!
+For this to all work correctly, you need to use the code "Transform" and "Translate" inside him, with this code you can modify the fix position of the image or content inside the container 
+
+Ass: RN
+*/
+
+        #conteudo{
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+            
+            left: 50%;
+            top: 50%;
+            
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>

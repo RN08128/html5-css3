@@ -1,0 +1,42 @@
+Para criar um formulário, basta criar o "<form> </form>"
+e entre eles colocar o input do tipo text (Input:text) para criar uma linha de texto para colocar nomes ou sobrenomes e etc
+
+para dados sensíveis como senhas e código, utilizamos o "<form method="post"></form>" para ocultar a informação na url
+
+Para etiquetar os dados pedidos com a sua resposta no formulário é necessário utilizarmos o "<label for=""> </label>", dentro do (for="") precisamos colocar o id do botão (input) que foi definido anteriormente.
+
+Com o código "<input type="submit" value="">" adicionamos um botão para enviar os dados
+
+Com o código "<input type="reset" value="">" adicionamos um botão para limpar os dados
+
+para que um dos dados requeridos sejam obrigatórios é preciso adicionar o "required" dentro do input
+ex: <input type="text" name="senha" id="senha" required>
+
+para colocar um máximo de caracteres ou minimo é só usar o "maxlenght" ou "minlenght" ao semelhante do "required"
+
+Formulários
+
+Form de Texto:
+    <input type="text" name="" id="">
+
+Form de Números:
+    <input type="number" name="media" id="media">
+
+Form de Mês:
+    <input type="month" name="" id="">
+
+Form de Data:
+    <input type="date" name="" id="">
+
+Form de Hora:
+    <input type="time" name="" id="">
+
+Botão de Limpar/reset
+    <input type="reset" value="Limpar">
+
+Botão de Enviar/submit
+    <input type="submit" value="Enviar">
+
+    Agrugar Formulários com "<fieldset>" para criar uma área específica daquelas informações, com o "<legend>" podemos colocar uma legenda para indicar de qual área aquelas informações se tratam
+
+    <!--Estudar mais sobre RegEx-->

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form example</title>
+    <style>
+        body{
+            background-color: rgb(56, 56, 56);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="mas"><label for="mas">Masculino</label> <br>
+            <input type="radio" name="sexo" id="fem"><label for="fem">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="fut" id="fut"><label for="fut">Futebol</label> <br>
+            <input type="checkbox" name="bas" id="bas"><label for="bas">Basquete</label> <br>
+            <input type="checkbox" name="gol" id="gol"><label for="gol">Golfe</label> <br>
+            <input type="checkbox" name="ten" id="ten"><label for="ten">Tênis</label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>

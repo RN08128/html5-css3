@@ -1,0 +1,1 @@
+No iframe, para evitar extravio de informações, utilizar sempre a tag (sandbox="sandbox (ou qualquer outra coisa que seja permitida como uma limitação ex: allow-scripts)" referrerpolicy="no-referrer") dentro de um 'iframe'

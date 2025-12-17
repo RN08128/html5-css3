@@ -1,0 +1,13 @@
+animation: balanco1 .8s linear infinite;
+    @keyframes balanco1 {
+        
+    50% {
+        transform: rotate(5deg);
+    }
+}
+através dessas linhas de código, é criado uma animação de nome 'balanco1', na linha 'transform: rotate(5deg);'
+o corpo(botão) é movido 5 graus para a direita
+
+a linha 'keyframes' funciona como uma variável que guarda o nome e sua ação/animação
+
+a linha 'animation' serve para colocar essas ações criadas pelo keyframe e escolhar a forma de seu funcionamento como tempo que levará para a ação ser completa (.8s), a forma que irá funcionar (linear) e por quanto tempo irá funcionar (infinite).

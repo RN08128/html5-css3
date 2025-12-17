@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@media print {
+
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main, h1{
+    text-shadow: none;
+    color: black; 
+}
+main{
+    border: 2px solid black;
+}
+
+}
+
+@media only screen and (min-width:768px) {
+    button#ham{
+        display: none;
+    }
+    #menu{
+        display: inline-block;
+    }
+    button.butao{
+    padding: 8px;
+    font-size: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(66, 66, 66);
+    color: rgb(255, 255, 255);
+    width: 80px;
+    border-radius: 5px;
+    }
+
+}
+
+@media only screen and (min-width:992px) and (max-width: 1199.98px) {
+
+    main{
+        max-width: 1000px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    main{
+        max-width: 1000px;
+    }
+
+}
+
+
+

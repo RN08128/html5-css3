@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: blue;
+}
+div{
+    background-color: rebeccapurple;
+    background-image: url('../imagens/tela-instagram.jpg');
+    background-size: contain;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 2140px;
+    width: 254px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    overflow: hidden;
+}

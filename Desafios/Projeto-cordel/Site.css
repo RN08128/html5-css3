@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Passion';
+    src: url('Fonts/Passion_One/PassionOne-Bold.ttf') format('truetype');
+}
+  
+@font-face {
+    font-family: 'Sriracha';
+    src: url('Fonts/Sriracha/Sriracha-Regular.ttf') format('truetype');
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    padding: 0;
+    margin-top: -80px;
+    margin-bottom: 0;
+    min-height: 220px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header > h1{
+    color: white;
+    padding-top: 13vh;
+    font-family: 'Passion';
+    font-size: 6vw;
+    margin-bottom: 0;
+}
+header > h1 > a{
+    font-size: 7.5vw;
+    text-decoration: none;
+    color: white;
+}
+header > h2 > a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header > h2{
+    margin-bottom: 0;
+}
+.links:hover{
+    text-decoration: underline;
+}
+
+header > h2{
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+    padding-bottom: 50px;
+}
+
+.divs{
+    font-family: 'Sriracha';
+    padding-left: 3.6vw;
+    font-size: 3.8vh;
+    padding-top: 35px;
+}
+#imagem1{ 
+    font-family: 'Sriracha';
+    color: white;
+    background-image: url('Imagens/Joaninha-2.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 3.8vh;
+    padding-left: 3.6vw;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    background-size: cover;
+    box-shadow: inset 6px 6px 15px rgba(0, 0, 0, 0.562);
+    text-shadow: 1px 1px 1px black;
+}
+#imagem1 > p{
+    background-color: rgba(128, 128, 128, 0.452);
+    max-width: fit-content;
+}
+#imagem2{ 
+    font-family: 'Sriracha';
+    color: white;
+    background-image: url('Imagens/Carta.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right, center;
+    background-size: cover;
+    font-size: 3.8vh;
+    padding-left: 3.6vw;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    box-shadow: inset 6px 6px 15px rgba(0, 0, 0, 0.562);
+    text-shadow: 1px 1px 1px black;
+}
+
+#imagem2 > p{
+    background-color: rgba(128, 128, 128, 0.452);
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+footer{
+    font-size: 1.8vh;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    height: 30px;
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Login</title>
+    <link rel="stylesheet" href="MobileF.css" media="all">
+    <link rel="stylesheet" href="OtherQueries.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <main>
+        
+            
+            <div id="formulario">
+                <div id="imagem"></div>
+                <div id="login">
+                    <h1>Login</h1>
+                    <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e continuar de onde parou.</p>
+                    <form action="login.php" method="get">
+                        <div id="area"><i class="material-icons" style="color: white; padding: 11px; float: left;">person</i><input type="text" name="email" id="email" class="campo" required placeholder="seu e-mail" autocomplete="on"></div>
+                        <div id="area"><i class="material-icons" style="color: white; padding: 11px; float: left; ">vpn_key</i><input type="text" name="senha" id="senha" class="campo" required placeholder="sua senha" minlength="8" autocomplete="current-password"></div>
+                    
+                        <a href="#"><input type="submit" value="Entrar" class="butao" id="entrar"></a>
+                        <a href="#" class="butao" id="esqueci">Esqueci a Senha <i class="material-icons" id="iconmail" style="color: rgb(64, 138, 128);">mail</i></a>
+                    </form>
+                </div>
+            </div>
+    </main>
+</body>
+</html>

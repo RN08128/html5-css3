@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100vh;
+}
+
+body{
+    background: rgb(168, 168, 168) url(../images/back-phone.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+header{
+    background-color: rgb(141, 141, 141);
+    padding-top: 20px;
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.74);
+    width: 99vw;
+    font-size: 0.8em;
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 0.5%;
+}
+
+main > h2{
+    color: rgb(0, 0, 0);
+    padding-bottom: 5px;
+}
+
+main > p{
+    font-size: 0.9em;
+    color: rgb(0, 0, 0);
+}
+
+h1{
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.288);
+}
+
+button#ham{
+    color: white;
+    background-color: rgb(48, 48, 48);
+    box-shadow: none;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    width: 100vw;
+    border: 0;
+}
+
+button#ham:hover{
+    background-color: rgb(223, 223, 223);
+    color: rgb(48, 48, 48);
+}
+#menu{
+    display: none;
+}
+button.butao{
+    padding: 13px;
+    border: 0;
+    font-size: 51%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(95, 95, 95);
+    color: rgb(255, 255, 255);
+    box-shadow: none;
+    text-align: center;
+    width: 100vw;
+}
+
+menu > button:hover{
+    background-color: rgb(163, 163, 163);
+}

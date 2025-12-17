@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RnSite</title>
+    <link rel="stylesheet" href="Styles/style.css" media="all">
+    <link rel="stylesheet" href="Styles/allqueries.css">
+</head>
+<body onresize="tamanho()">
+    <header>
+        
+        <h1>Meu site</h1>
+        <button id="ham" type="button" onclick="abrir()">≡</button>
+        <menu id="menu">
+            <button class="butao" type="button">Opção 1</button>
+            <button class="butao" type="button">Opção 2</button>
+            <button class="butao" type="button">Opção 3</button>
+            <button class="butao" type="button">Opção 4</button>
+        </menu>
+    </header>
+    <main>
+        <h2>Testando Media Queries</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe adipisci recusandae nulla. Commodi, ab debitis. Fugit, quas. Rem error veritatis doloremque, distinctio a hic obcaecati dolores. Eum, itaque nisi. Asperiores.
+        <br>
+        <br>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum animi sit temporibus dicta error necessitatibus sapiente mollitia maiores accusamus ullam. Itaque eveniet iure at autem odit nihil accusamus error dolorem!
+        <br>
+        <br>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti natus aut quam? Temporibus enim eligendi natus magni illum commodi eum pariatur porro iure repellendus labore, et vero laudantium ea minus.
+        </p>
+    </main>
+    <footer>
+
+    </footer>
+    <script>
+        function abrir(){
+            if (menu.style.display == 'block'){
+                menu.style.display = 'none'
+            } else{
+                menu.style.display = 'block'
+            }
+        }
+
+        function tamanho(){
+            if (window.innerWidth >= 768){
+                menu.style.display = 'inline-block'
+            } else{
+                menu.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+</html>

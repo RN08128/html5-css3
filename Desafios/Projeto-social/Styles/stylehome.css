@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: blue;
+}
+div{
+    background-color: rebeccapurple;
+    background-image: url('../imagens/tela-home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 469.9px;
+    width: 269px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    overflow: hidden;
+}

@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@media only screen and (min-width: 767.8px) and (max-width: 991.8px){
+    div#login{
+        float: right;
+        padding: 5px 8px 5px 5px;
+        max-width: 62.8%;
+    }
+    div#imagem{
+        float: left;
+        max-width: 34.5%;
+        background-size: cover;
+        min-height: 60vh;
+    }
+    main{
+        width: 75vw;
+        height: 48vh;
+    }
+    
+}
+
+@media only screen and (min-width: 991.8px){
+    div#login{
+        float: left;
+        padding: 5px 8px 5px 5px;
+        width: 53.4%;
+    }
+    div#imagem{
+        float: right;
+        max-width: 45%;
+        background-size: cover;
+        min-height: 60vh;
+    }
+    main{
+        width: 95vw;
+        height: 50vh;
+    }
+    .butao{
+        width: 100%;
+        height: 45px;
+    }
+}

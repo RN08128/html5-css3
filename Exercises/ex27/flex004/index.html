@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body, html, menu{
+            margin: 0;
+            padding: 0;
+        }
+        section{
+            width: 50vw;
+            height: 50vh;
+            background-color: lightblue;
+            display: flex;
+            align-items: center; /*Serve para o eixo transversal (cross axis)*/
+            justify-content: space-evenly; /*Serve para o eixo principal (main axis)*/
+            flex-flow: row wrap;
+            align-content: stretch;
+        }
+
+        section > div{
+            background-color: rgb(255, 0, 0);
+            width: 80px;
+            height: 80px;
+            align-content: stretch;
+
+        }
+    </style>
+</head>
+<body>
+    <menu>
+        <section>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+    </menu>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box orders</title>
+    <style>
+
+        body, html{
+            width: 100vw;
+            height: 100vh;
+        }
+        section{
+            background-color: blue;
+            width: 90vw;
+            height: 90vh;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+        }
+
+        .items{
+            background-color: red;
+            width: 50px;
+            height: 50px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #i1{
+            order: 2;
+        }
+        #i2{
+            order: -1;
+        }
+        #i3{
+            order: -2;
+        }
+        #i4{
+            order: -6;
+        }
+        #i5{
+            order: 6;
+        }
+        #i6{
+            order: 2;
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="items" id="i1" >A</div>
+        <div class="items" id="i2" >B</div>
+        <div class="items" id="i3" >C</div>
+        <div class="items" id="i4" >D</div>
+        <div class="items" id="i5" >E</div>
+        <div class="items" id="i6" >F</div>
+    </section>
+</body>
+</html>

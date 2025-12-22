@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box orders</title>
+    <style>
+
+        body, html{
+            width: 90vw;
+            height: 90vh;
+            margin: 0;
+            padding: 0;
+        }
+        section{
+            background-color: blue;
+            width: 100vw;
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        .items{
+            background-color: red;
+            flex-basis: 150px;
+            border: 1px solid black;
+        }
+
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="items">Outro conteudo</div>
+        <div class="items">B</div>
+        <div class="items">Conteudo um pouco maior</div>
+        <div class="items">D</div>
+        <div class="items">Conteudo maior ainda, que vai ocupar mais espaço.</div>
+    </section>
+</body>
+</html>

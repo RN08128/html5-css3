@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 900px) {
+    header{
+        flex-flow: row nowrap;
+
+    }
+    header > div{
+
+    }
+}

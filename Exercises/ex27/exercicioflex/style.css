@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body,html{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: gray;  
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header > h1{
+    margin: 5px 0;
+    display: block;
+    width: 100%;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+header > div{
+    background-color: black;
+    border-radius: 8px;
+    padding: 7px 10px;
+    margin: 10px 4px;
+    color: rgb(126, 126, 126);
+    max-height: 30px;
+    text-align: center;
+}
+
+header > div:hover{
+    background-color: white;
+}

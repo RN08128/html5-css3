@@ -8,27 +8,48 @@ body,html{
 header{
     background-color: gray;  
     display: flex;
+    justify-content: space-between;
     flex-flow: row wrap;
 }
 
 header > h1{
     margin: 5px 0;
     display: block;
-    width: 100%;
     color: white;
     text-shadow: 1px 1px black;
+    flex: 0 0 200px;
+    padding: 0 8px;
 }
-
-header > div{
+nav{
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+}
+.botaomenu{
     background-color: black;
     border-radius: 8px;
     padding: 7px 10px;
     margin: 10px 4px;
-    color: rgb(126, 126, 126);
+    color: rgb(187, 187, 187);
     max-height: 30px;
     text-align: center;
+    text-decoration: none;
 }
 
-header > div:hover{
+.botaomenu:hover{
+    background-color: rgb(187, 187, 187);
+    color: black;
+    transition: background-color 0.5s;
+}
+
+article{
+    padding: 8px;
+    margin: 0 13px;
     background-color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.596);
+    border-radius: 10px;
+}
+main{
+    background-color: rgb(204, 204, 204);
+    
 }
